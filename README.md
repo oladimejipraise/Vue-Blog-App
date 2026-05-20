@@ -1,5 +1,17 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Blog Application
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+
+A simple Blog Application with Vue Router. The app has a Home Page displaying a list of blog posts fetched from the API. Each post  have a title and a brief excerpt, with a link to its Detail Page. The Detail Page shows the full content of the selected blog post, which can be dynamically generated. 
+
+* Users can return to the Home Page from any page or from the previous page. 
+* Also, handles 404 errors by displaying a fallback page when a non-existent route is visited.
+* Error Boundary and Suspense with LazyLoading.
+
+# Tech Stack
+* Vue 3
+* Vue Router
+* Tailwind css
+* Vite
+* JavaScript
